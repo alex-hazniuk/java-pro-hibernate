@@ -1,13 +1,11 @@
 package org.example.dao;
 
 import org.example.entity.City;
-import org.example.entity.Country;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
 
 import java.sql.Timestamp;
-import java.util.List;
+
 
 public class CityDao {
     private final SessionFactory sessionFactory;
